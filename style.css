@@ -1,0 +1,78 @@
+
+h1 {
+    /* Selector 1 instance */
+    /* Insert your styles here */
+    color: rgb(0, 255, 30);
+}
+
+
+.highlight {
+    /* Selector 2 instance */
+    /* Insert your styles here */
+    background-color: rgb(0, 174, 255);
+}
+
+
+#mainheading {
+    
+    font-weight: bold;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Your-External-Web-Font', sans-serif;
+}
+
+
+p, table {
+    font-family: 'Your-Local-Web-Font', sans-serif;
+}
+
+
+p, table {
+    font-size: 1.125rem; 
+}
+
+ 
+div.wrapper {
+    width: 80%;
+    margin: 0 auto; 
+}
+
+ 
+article {
+    padding: 2em 3em;
+}
+
+
+div.wrapper {
+    background-color: #7c8412; 
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+footer {
+    background-color: #57747b;
+    color: #c57814;
+    padding: 3em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid rgb(230, 78, 13);
+    padding: 8px;
+}
